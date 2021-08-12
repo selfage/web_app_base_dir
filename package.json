@@ -1,0 +1,32 @@
+{
+  "name": "@selfage/web_app_base_dir",
+  "version": "1.0.0",
+  "description": "Gobal variable declaration of base directory.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/selfage/web_app_base_dir.git"
+  },
+  "keywords": [
+    "SPA",
+    "Bundle",
+    "TypeScript"
+  ],
+  "author": "Yuxuan Xie <teststaybaka@gmail.com> (http://www.yuxuanxie.com)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/selfage/web_app_base_dir/issues"
+  },
+  "homepage": "https://github.com/selfage/web_app_base_dir#readme",
+  "main": "./web_app_base_dir.js",
+  "types": "./web_app_base_dir.d.ts",
+  "files": [
+    "**/*.d.ts",
+    "**/*.js",
+    "!**/*_test.*",
+    "!test_data/**/*"
+  ],
+  "devDependencies": {
+    "@selfage/tsconfig": "^1.0.7",
+    "typescript": "^4.2.3"
+  }
+}
